@@ -1,0 +1,21 @@
+version: "3.1"
+
+stories:
+
+- story: positive
+  steps:
+  - intent: greet
+  - action: utter_question_who_is
+  - intent: my_name
+  - action: utter_question_suck
+  - intent: affirm
+  - action: utter_happy
+
+- story: negative
+  steps:
+  - intent: greet
+  - action: utter_question_who_is
+  - intent: my_name
+  - action: utter_question_suck
+  - intent: deny
+  - action: utter_cheer_up
