@@ -1,14 +1,14 @@
 version: "3.1"
 
 intents:
-  - приветствие
-  - прощание
-  - согласие
-  - отказ
-  - хорошое_настроение
-  - плохое_настроение
-  - испытание_на_бота
-  - имя
+  - greeting
+  - goodbye
+  - agreement
+  - rejection
+  - good_mood
+  - bad_mood
+  - test_on_bot
+  - name
 
 responses:
   utter_question_who_is:

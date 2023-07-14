@@ -2,20 +2,20 @@ version: "3.1"
 
 stories:
 
-- story: Предложи пососать и позитивный ответ
+- story: Happy path
   steps:
-  - intent: приветствие
+  - intent: greeting
   - action: utter_question_who_is
-  - intent: имя
+  - intent: name
   - action: utter_question_suck
-  - intent: согласие
+  - intent: agreement
   - action: utter_happy
 
-- story: Предложи пососать и негативный ответ
+- story: Unhappy path
   steps:
-  - intent: приветствие
+  - intent: greeting
   - action: utter_question_who_is
-  - intent: имя
+  - intent: name
   - action: utter_question_suck
-  - intent: отказ
+  - intent: rejection
   - action: utter_cheer_up

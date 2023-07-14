@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 rasa = {version = "^3.6.2", python = ">=3.9,<3.11"}
+sqlalchemy = "<2.0"
 
 
 [build-system]
