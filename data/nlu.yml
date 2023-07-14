@@ -1,7 +1,7 @@
 version: "3.1"
 
 nlu:
-- intent: приветствие
+- intent: greeting
   examples: |
     - привет
     - добрый день
@@ -16,7 +16,7 @@ nlu:
     - прив
     - добрейший вечерочек
 
-- intent: прощание
+- intent: goodbye
   examples: |
     - пока
     - прощай
@@ -29,18 +29,15 @@ nlu:
     - не пиши мне
     - давай закочим
 
-- intent: имя
+- intent: name
   examples: |
     - мое имя Саша
     - меня зовут Саша
     - Саша
     - Александра
-    - мое имя Зураб
-    - меня зовут Зураб
-    - Зур
     - Владимир Путин
 
-- intent: согласие
+- intent: agreement
   examples: |
     - да
     - ага
@@ -50,7 +47,7 @@ nlu:
     - правильно
     - ес
 
-- intent: отказ
+- intent: rejection
   examples: |
     - нет
     - ноуп
@@ -61,7 +58,7 @@ nlu:
     - неа
     - не дождешься
 
-- intent: хорошое_настроение
+- intent: good_mood
   examples: |
     - пойдет
     - отлично
@@ -77,7 +74,7 @@ nlu:
     - заебись
     - лучше всех
 
-- intent: плохое_настроение
+- intent: bad_mood
   examples: |
     - грустно
     - мне плохо
@@ -94,7 +91,7 @@ nlu:
     - я соскучился
     - страдаю
 
-- intent: испытание_на_бота
+- intent: test_on_bot
   examples: |
     - ты бот?
     - ты человек?
