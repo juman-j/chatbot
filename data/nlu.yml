@@ -1,100 +1,106 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: приветствие
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - привет
+    - добрый день
+    - доброе утро
+    - вотс апп
+    - здраствуйте
+    - здорова
+    - чус
+    - добрый вечер
+    - поехали
+    - привет чувак
+    - прив
+    - добрейший вечерочек
 
-- intent: goodbye
+- intent: прощание
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - пока
+    - прощай
+    - до скорого
+    - увидимся
+    - спишимся
+    - поки
+    - все, пока
+    - замолчи
+    - не пиши мне
+    - давай закочим
 
-- intent: my_name
+- intent: имя
   examples: |
-    - my name
-    - my name is
-    - my name is Zurab
-    - Zur
-    - Zurab
-    - dude
+    - мое имя Саша
+    - меня зовут Саша
+    - Саша
+    - Александра
+    - мое имя Зураб
+    - меня зовут Зураб
+    - Зур
+    - Владимир Путин
 
-- intent: affirm
+- intent: согласие
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - да
+    - ага
+    - согласен
+    - конечно
+    - так точно
+    - правильно
+    - ес
 
-- intent: deny
+- intent: отказ
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - нет
+    - ноуп
+    - никогда
+    - нивкоем случае
+    - я так не думаю
+    - не согласен
+    - неа
+    - не дождешься
 
-- intent: mood_great
+- intent: хорошое_настроение
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - пойдет
+    - отлично
+    - номрально
+    - норм
+    - прекрасно
+    - хорошо
+    - сойдет
+    - я прекрасно
+    - я очень хорошо
+    - очень хорошо
+    - заебца
+    - заебись
+    - лучше всех
 
-- intent: mood_unhappy
+- intent: плохое_настроение
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - грустно
+    - мне плохо
+    - плохо
+    - не очень
+    - бывало и лучше
+    - плохое состояние
+    - лучше не спрашивай
+    - я грущу
+    - отвратительно
+    - ужасно
+    - скучаю
+    - мне скучно
+    - я соскучился
+    - страдаю
 
-- intent: bot_challenge
+- intent: испытание_на_бота
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - ты бот?
+    - ты человек?
+    - Артем, это ты?
+    - кто это?
+    - ты живой?
+    - кто ты?
+    - ты тупой
+    - ты ничего не умеешь
