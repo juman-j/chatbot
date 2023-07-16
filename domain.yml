@@ -3,23 +3,38 @@ version: "3.1"
 intents:
   - greeting
   - goodbye
+  - name
   - agreement
   - rejection
   - good_mood
   - bad_mood
   - test_on_bot
-  - name
+  - gratitude
+  - apology
+  - request
+  - opinion
+  - joke
+
+entities:
+- user_name
+slots:
+  user_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: user_name
 
 responses:
-  utter_question_who_is:
-  - text: "Как тебя зовут?"
+  utter_greet_and_ask_name:
+  - text: "Привет! Меня зовут электрокисульчик, а как зовут тебя?"
 
   utter_question_suck:
-  - text: "О, Зураб, это ты! Тогода пососи"
+  - text: "{user_name}, приятно познакомиться:)"
 
   utter_cheer_up:
   - text: "Думаю, тебя это повесилит:"
-    image: "https://i.imgur.com/vpj4WGP.jpeg"
+    image: "https://imgur.com/gallery/LbNf524"
 
   utter_did_that_help:
   - text: "Это тебе помогло?"
